@@ -1,5 +1,5 @@
-const express = require('express');
-const router = express.Router();
+const express = require('express'); // express comes with the various inbuilt features
+const router = express.Router(); /// one of that Router()
 const CollegeController = require('../controller/collegeController')
 const InternController = require('../controller/internController')
 
